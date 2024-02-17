@@ -1,0 +1,19 @@
+[package]
+name = "rustled"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11.24", features = ["json"] } # High level HTTP client.
+tokio = { version = "1.36.0", features = ["full"] } # Asynchronous programming
+hashbrown = "0.14.3" # A fast HashMap replacement.
+anyhow = "1.0.79" # A better error handling
+rayon = "1.8.1" # Introduced Parallelism. 
+chrono = "0.4.34" # Date and Time crate.
+
+# Personal Preference (Can remove)
+tempfile = "3.10.0" # Temporary file management
+colored = "2.1.0" # Colored text in terminal simplified
+clap = "4.5.1" # Command Line Argument Parser.
