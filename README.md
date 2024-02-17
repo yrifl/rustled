@@ -12,5 +12,5 @@ This is my complete Rust template, for binary projects specifically.
   
 ### Personal Preference
  * Tempfile ( Temporary file management )
- * Colored ( Colored text in terminal simplified)
+ * Colored ( Colored text in terminal simplified )
  * Clap ( Command Line Argument Parser )
