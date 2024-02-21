@@ -11,7 +11,7 @@ tokio = { version = "1.36.0", features = ["full"] } # Asynchronous programming
 hashbrown = "0.14.3" # A fast HashMap replacement.
 anyhow = "1.0.79" # A better error handling
 rayon = "1.8.1" # Introduced Parallelism. 
-chrono = "0.4.34" # Date and Time crate.
+time = "0.3.34" # Date and time Library
 
 # Personal Preference (Can remove)
 tempfile = "3.10.0" # Temporary file management
